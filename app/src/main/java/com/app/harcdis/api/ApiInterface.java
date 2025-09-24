@@ -20,7 +20,7 @@ public interface ApiInterface {
     @FormUrlEncoded
     @POST("smsapi/query/send_otp_nonuser")
     Call<ResponseBody> sendOtpToUser(
-            @Field("mobile") String mobile_number,
+            @Field("mobile") String mobile,
             @Field("send_by") String send_by,   // e.g., "harsac"
             @Field("msgType") String msgType    // e.g., "harsac"
     );
@@ -28,7 +28,7 @@ public interface ApiInterface {
     @FormUrlEncoded
     @POST("smsapi/query/verify_otp_nonuser")
     Call<ResponseBody> VerifyOtpUser(
-            @Field("mobile") String mobile_number,
+            @Field("mobile") String mobile,
             @Field("otp") String otp
     );
 

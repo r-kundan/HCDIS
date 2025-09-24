@@ -117,7 +117,7 @@
                 android:background="@drawable/brown_background"
                 android:hint="@string/enter_otp"
                 android:inputType="number"
-                android:maxLength="4"
+                android:maxLength="5"
                 android:padding="@dimen/dp_12"
                 android:textSize="@dimen/sp_14" />
 

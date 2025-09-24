@@ -234,7 +234,7 @@ public class HCDISLoginScreen extends AppCompatActivity {
         ApiInterface apiInterface = RetrofitClient.getRetrofitClient(HCDISLoginScreen.this).create(ApiInterface.class);
 
         // As per your spec: send_by:harsac, msgType:harsac, mobile:<number>
-        Call<ResponseBody> call = apiInterface.sendOtpToUser(username, "harsac", "harsac");
+        Call<ResponseBody> call = apiInterface.sendOtpToUser(username, "harsac", "harsac_login_otp");
 //        Call<ResponseBody> call = apiInterface.sendOtpToUser(number, "harsac", "harsac");
         call.enqueue(new Callback<ResponseBody>() {
             @Override

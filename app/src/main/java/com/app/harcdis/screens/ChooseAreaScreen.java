@@ -299,24 +299,57 @@ public class ChooseAreaScreen extends AppCompatActivity {
     }
 
 
-    private void manageUserAreaSelection() {
-        dis_code_string = Sp.read_shared_pref(ChooseAreaScreen.this, "n_d_code");
-        dis_name_string = Sp.read_shared_pref(ChooseAreaScreen.this, "n_d_name");
-        if (dis_code_string.equalsIgnoreCase("99")) {
-            loadAllDistrict();
-        } else {
-            if (dis_code_string.contains(",")) {
-                String[] dis_assign_to_user = dis_code_string.split(",");
-                String[] dis_name_assign_to_user = dis_name_string.split(",");
+//    private void manageUserAreaSelection() {
+//        dis_code_string = Sp.read_shared_pref(ChooseAreaScreen.this, "n_d_code");
+//        dis_name_string = Sp.read_shared_pref(ChooseAreaScreen.this, "n_d_name");
+//        if (dis_code_string.equalsIgnoreCase("99")) {
+////        if (dis_code_string != null && dis_code_string.equalsIgnoreCase("99")) {
+//
+//            loadAllDistrict();
+//        } else {
+//            if (dis_code_string.contains(",")) {
+//                String[] dis_assign_to_user = dis_code_string.split(",");
+//                String[] dis_name_assign_to_user = dis_name_string.split(",");
+//
+//                for (int i = 0; i < dis_assign_to_user.length; i++) {
+//                    dist_list.add(dis_name_assign_to_user[i] + "-" + dis_assign_to_user[i]);
+//                }
+//            } else {
+//                dist_list.add(dis_name_string + "-" + dis_code_string);
+//            }
+//        }
+//    }
 
-                for (int i = 0; i < dis_assign_to_user.length; i++) {
-                    dist_list.add(dis_name_assign_to_user[i] + "-" + dis_assign_to_user[i]);
-                }
-            } else {
-                dist_list.add(dis_name_string + "-" + dis_code_string);
-            }
+
+
+private void manageUserAreaSelection() {
+    String dis_code_string = Sp.read_shared_pref(ChooseAreaScreen.this, "n_d_code");
+    String dis_name_string = Sp.read_shared_pref(ChooseAreaScreen.this, "n_d_name");
+
+    // Null-safe check for "99"
+    if ("99".equalsIgnoreCase(dis_code_string)) {
+        loadAllDistrict();
+    }
+    // Null-safe check for ',' in discodestring
+    else if (dis_code_string != null && dis_code_string.contains(",")) {
+        String[] dis_assign_to_user = dis_code_string.split(",");
+        String[] dis_name_assign_to_user = dis_name_string != null ? dis_name_string.split(",") : new String[dis_assign_to_user.length];
+        for (int i = 0; i < dis_assign_to_user.length; i++) {
+            String district_Name = (dis_name_assign_to_user.length > i) ? dis_name_assign_to_user[i] : "";
+            String district_Code = dis_assign_to_user[i];
+            // Add null-safe fallback for districtName and districtCode
+            dist_list.add(district_Name + " - " + district_Code);
         }
     }
+    else if (dis_name_string != null && dis_code_string != null) {
+        dist_list.add(dis_name_string + " - " + dis_code_string);
+    }
+    // else case can be added for other fallback/empty values as required
+}
+
+
+
+
 
 
 
