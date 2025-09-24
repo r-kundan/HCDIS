@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reason">Reason</string>
+    <string name="select_reason">Select Reason</string>
+    <string name="only_district_admin_have_rights_to_forward_or_approved_the_new_built_up_points">Only District Admin have rights to forward or approved the new built-up points.</string>
+    <string name="forward_to_dtp">forward to DTP</string>
+</resources>

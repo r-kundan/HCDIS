@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "10406936287",
+    "project_id": "tcp-encroachment-haryana",
+    "storage_bucket": "tcp-encroachment-haryana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10406936287:android:011d3e3159ce1bcef0736a",
+        "android_client_info": {
+          "package_name": "com.app.harcdis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10406936287-hb1mquagecgaf33fk94ft9rvl2j5m49v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0Awz-muOk2DFRZpHKvLCp1bN2S4Qe5_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10406936287-hb1mquagecgaf33fk94ft9rvl2j5m49v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10406936287:android:5008358e925e4cbef0736a",
+        "android_client_info": {
+          "package_name": "com.gmda.tcpencroachmentharyana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10406936287-hb1mquagecgaf33fk94ft9rvl2j5m49v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0Awz-muOk2DFRZpHKvLCp1bN2S4Qe5_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10406936287-hb1mquagecgaf33fk94ft9rvl2j5m49v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

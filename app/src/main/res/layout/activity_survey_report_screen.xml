@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.SurveyReportScreen">
+
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_margin="@dimen/dp_10"
+        android:textColor="@color/appcolor"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="Haryana District Report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<ScrollView
+    android:layout_below="@id/text_view"
+    android:layout_above="@id/downloadButton"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:background="@drawable/table_line"
+            android:id="@+id/reportTableLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        </TableLayout>
+    </HorizontalScrollView>
+
+</ScrollView>
+
+    <Button
+        android:layout_margin="@dimen/dp_10"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/downloadButton"
+        android:text="@string/download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

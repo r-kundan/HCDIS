@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/topographic_item"
+        android:title="@string/topographic" />
+    <item
+        android:id="@+id/street_item"
+        android:title="@string/street" />
+    <item
+        android:visible="false"
+        android:id="@+id/openstreetmap_item"
+        android:title="@string/open_street_map" />
+    <item
+        android:id="@+id/imagery_item"
+        android:title="@string/imagery" />
+
+</menu>

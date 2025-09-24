@@ -1,0 +1,396 @@
+<resources>
+    <string name="app_name">HCDIS</string>
+    <string name="NotWorkingConnection">You don\'t have a working Internet Connection.</string>
+
+    <string name="tcp_new_built_up_area_verification">Haryana Change Detection Information System</string>
+
+    <string name="title_activity_map" translatable="false">MapActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="powered_by_harsac">Powered by HARSAC.</string>
+
+
+    <string name="Start">Start</string>
+    <string name="chooseyourpreference">CHOOSE YOUR LOCATION</string>
+    <string name="selectYourDistrict">Select your district</string>
+    <string name="selectYourVillage">Select your village</string>
+    <string name="selectYourTehsil">Select your tehsil</string>
+    <string name="dialog_distrcit">Choose your district</string>
+    <string name="submit">Submit</string>
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
+
+    <string name="EnterYourMobileNumber">Mobile Number *</string>
+    <string name="wewillsend">We will send you confirmation code </string>
+    <string name="otpverfication">Otp verification</string>
+    <string name="sendotp">Send Otp</string>
+    <string name="getOtp">Get Otp</string>
+    <string name="didnotreciveanycode">Didn\'t you receive any code ?</string>
+    <string name="resendnewcode">Resend Code</string>
+    <string name="please_enter_the_verification_code_sent_to_your_mobile_number">Please enter the verification code \n sent to your mobile number</string>
+    <string name="update_available">Update Available.</string>
+    <string name="please_click_on_the_below_link_n_to_get_the_updated_application">Please click on the below image to get the updated application.</string>
+    <string name="close">Close</string>
+    <string name="select_extra_crop_name">Select Extra Crop Name</string>
+    <string name="tap_here_to_select_extra_crop_name">Tap Here to Select Extra Crop Name</string>
+
+
+    <string name="space" translatable="false">---------------------</string>
+    <string name="todo" translatable="false">todo</string>
+
+
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="permissionExplanation">Look, we really need your location&#8230;</string>
+    <string name="switchOnLocationShort">Oops - You are being too Smart by using FAKE GPS Kindly Stop this to continue And Restart Your Phone to Refresh your location".</string>
+    <string name="switchOnLocationLong">Oops - you seem to have disabled location services at the moment.
+        To continue, please click on "OK" and enable
+        location. If you\'re worried about battery usage, be sure to switch to energy saving mode. </string>
+    <string name="permissionPermanentlyDeclined">Bummer! You have permanently declined the location permission.
+        Click "OK" to change the permission
+        settings.</string>
+    <string name="mockLocationMessage">Stop\nMocking\nMe</string>
+    <string name="empty">Empty</string>
+    <string name="enter_remarks_here">Enter Remarks Here</string>
+    <string name="remarks">Remarks</string>
+
+
+    <string name="login">Login</string>
+
+    <string name="your_phone_no">Phone Number</string>
+    <string name="otp">OTP</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="officer_name">Gurvinder  Singh / गुरविंदर सिंह</string>
+    <string name="officer_rank">पटवारी</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Search_here">Search Here</string>
+
+    <string name="tap_here_to_select_district_name">Tap Here To Select District Name</string>
+
+    <string name="village_name">Village Name</string>
+    <string name="tap_here_to_select_village_name">Tap Here To Select Village Name</string>
+    <string name="tap_here_to_select_muraba_number">Tap Here To Select MURRBA Number</string>
+    <string name="select_condition">Select Condition</string>
+    <string name="select_encroachment_condition">Select Encroachment Condition</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="save_offline">Save  Record Offline</string>
+    <string name="update_record">Update Record</string>
+    <string name="minimum_15_seconds_land_video">Minimum 15 seconds Video of NBA *</string>
+    <string name="third_land_image">Third NBA Image  *</string>
+    <string name="fourth_land_image">Fourth NBA Image  *</string>
+    <string name="land_image_form_10_15_meter_distance">NBA Image From 10–15 Meter Distance *</string>
+    <string name="second_land_image">Second NBA Image *</string>
+    <string name="attach_land_images">Attach NBA(New Built-Up Area) Images *</string>
+    <string name="name_">"Name : "</string>
+    <string name="assigned_district_">"Assigned District : "</string>
+    <string name="role_">"Designation : "</string>
+    <string name="phone_no_">"Phone No. : "</string>
+    <string name="id_">"Id : "</string>
+    <string name="district_">"District : "</string>
+    <string name="verified_by_">"Verified By : "</string>
+    <string name="verified_">"Verified : "</string>
+    <string name="murabba_khasra_">"Murabba//Khasra No : "</string>
+    <string name="village_">"Village : "</string>
+    <string name="tehsil_">"Tehsil : "</string>
+    <string name="select_start_date">Select Start Date</string>
+    <string name="select_end_date">Select End Date</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait......</string>
+    <string name="select_one">Select One</string>
+    <string name="no_data_found">" No Data Found...."</string>
+    <string name="please_one_gps">Please on the gps</string>
+    <string name="your_live_location">Your live location</string>
+    <string name="select_district_name">Select District Name</string>
+    <string name="select_tehsil_name">Select Tehsil Name</string>
+    <string name="select_village_name">Select Village Name</string>
+    <string name="no_number_found">No phone numbers found</string>
+    <string name="no_registered_with_gfasal">You Are not REGISTERED</string>
+    <string name="enter_mobile_no">Enter Mobile Number</string>
+    <string name="enter_valid_mobile_no">Enter Valid Mobile Number</string>
+    <string name="current_district">"Current District: "</string>
+    <string name="try_again">Try again</string>
+    <string name="click_back_again">Please click BACK again to exit</string>
+    <string name="save_survey">Save Survey</string>
+    <string name="submit_data_to_database">Submit Data to Database</string>
+    <string name="add_new_point_in_buffer_range">Add new point in buffer range.</string>
+    <string name="error_in_finding_your_location">Error in finding you\'re location.</string>
+    <string name="offline_save_limit">Offline Storage Limit Reach To Max</string>
+    <string name="are_you_want_to_submit_survey_data">Are you want to submit the Survey data ?</string>
+    <string name="are_you_want_to_save_offline_survey_data">Are you want to save offline the survey data?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="floors_details">Floors Details *</string>
+    <string name="structure_type_kucha_pucca">Structure Type (Kucha/Pucca) *</string>
+    <string name="land_type">Land Type (Government/Private) *</string>
+    <string name="date">"Date: "</string>
+    <string name="searchQuery">Search Here</string>
+    <string name="select_all">Select All</string>
+    <string name="add_record">Add Record</string>
+    <string name="enter_feedback">Enter Feedback</string>
+    <string name="select_feedback">Select feedback</string>
+
+    <string name="feedback">Feedback*</string>
+    <string name="enter_nearby_landmarks">Enter nearby landmarks</string>
+    <string name="nearby_landmarks">Nearby LandMarks*</string>
+    <string name="minimum_15_seconds_video_is_required">Minimum 10 seconds video is required *</string>
+    <string name="attach_nba_new_built_up_area_video">Attach NBA (New Built-Up Area) Video *</string>
+    <string name="verified_area_sq_mtr">Verified Area(Sq.Mtr.)</string>
+    <string name="enter_area">Enter Area</string>
+    <string name="survey_form">Survey Form</string>
+    <string name="are_you_sure_to_update_status_of_all_selected_points">"Are you sure to update status of all selected points? "</string>
+    <string name="point_status_is_updated">Points status is updated</string>
+    <string name="create_boundaries_around_point">Create Boundaries around point.</string>
+    <string name="do_you_want_draw_boundaries_around_this_point">Do you want to draw boundary around this point?</string>
+    <string name="first_mark_location">First mark a location</string>
+    <string name="no_survice_currently_running">No services are currently running</string>
+    <string name="point_is_already_selected">Point Is Already Selected.</string>
+    <string name="server_connection_failed">Server connection failed, try again later</string>
+    <string name="total_point">"Total Point: "</string>
+    <string name="unverified_point">"Unverified Point: "</string>
+    <string name="verified_point">"Verified Point: "</string>
+    <string name="no_offline_data_available">No Offline Data Available</string>
+    <string name="velidate_and_loading_data"><![CDATA[Validate & Loading Data]]></string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="enter_valid_otp">Enter Valid OTP</string>
+    <string name="otp_validate">OTP Validate</string>
+    <string name="check_internet_connection">Check Your Internet Connection</string>
+    <string name="on_your_mobile_gps">On Your Mobile GPS</string>
+    <string name="portal_login_failed">Harsac Portal Login Failed Please check your internet connection and try again.</string>
+    <string name="capture_first_image">Capture Image From 10-15 Meter Distance</string>
+    <string name="capture_second_image">Capture Second Image</string>
+    <string name="capture_third_image">Capture Third Image</string>
+    <string name="capture_fourth_image">Capture Fourth Image</string>
+    <string name="capture_video">Capture up to 10 seconds minimum</string>
+    <string name="enter_structure_type">Enter Structure Type</string>
+    <string name="request_cancelled">Request Cancelled</string>
+    <string name="point_updated">Point Updated</string>
+    <string name="point_is_verified_successfully">Point is verified successfully.</string>
+    <string name="boundaries_updated">Boundary Updated</string>
+    <string name="point_added">Point Added</string>
+    <string name="boundaries_added">Boundary Added</string>
+    <string name="point_and_boundary_added">New Point and Area is added Successfully.</string>
+    <string name="point_and_boundary_verified">"Point and Area is verified Successfully."</string>
+    <string name="error_while_uploading_data_to_server">Error while data uploading to server....</string>
+    <string name="new_point_added">"New Point is added Successfully. "</string>
+    <string name="exit">Exit?</string>
+    <string name="check_your_network_setting"><![CDATA[Check Your Network Settings & try again.]]></string>
+    <string name="survey_record">Survey Record :</string>
+    <string name="reset_date">Reset Date</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="total_new_built_up_point">Total New Built Up Point</string>
+    <string name="filter_record_by_location">Filter Record By Location</string>
+    <string name="built_up_point_location_wise">built-up point location wise</string>
+    <string name="district_name">District Name</string>
+    <string name="tehsil_name">Tehsil Name</string>
+    <string name="apply_filter">🔍 Apply Filter</string>
+    <string name="total_user">Total User</string>
+    <string name="daily">Any Date</string>
+    <string name="weekly">This Week</string>
+    <string name="this_month">This Month</string>
+    <string name="verified_point_">Verified Point</string>
+    <string name="ready_to_demolish">Ready to Demolish</string>
+    <string name="total_unverified_record">Total Unverified Record</string>
+    <string name="total_history_record">Total History Record</string>
+    <string name="total_verified_record">Total Verified Record</string>
+    <string name="select_area_for_encroachment">Select Area For Encroachment</string>
+    <string name="district_name_">District Name *</string>
+    <string name="tap_here_to_select_tehsil_name">Tap here to select Tehsil Name</string>
+    <string name="continue_">Continue</string>
+    <string name="click_on_map">👆 Click on map</string>
+    <string name="process_of_adding_new_point">Process of Adding New Point</string>
+    <string name="_1_click_on_the_map_to_add_a_new_point_at_that_location_within_the_geofence_boundary_n">1. Click on the map to add a new point at that location within the geofence boundary.\n</string>
+    <string name="_2_user_can_also_create_borders_by_selecting_the_size_for_the_border">2. User can also create borders by selecting the size for the border.</string>
+    <string name="there_are_two_types_of_shapes_available_for_creating_borders">There are two types of shapes available for creating borders:-</string>
+    <string name="a_polygon">a) Polygon</string>
+    <string name="b_rectangle_n">b) Rectangle\n</string>
+    <string name="_3_click_on_next_button_to_fill_the_survey_form_to_add_a_new_point_n">3. Click on Next button to fill the survey form to add a new point.\n</string>
+    <string name="in_case_of_correction_user_can_press_undo_or_redo_button">* In case of correction user can press undo or redo button.</string>
+    <string name="add_new_point">Add New Point</string>
+    <string name="in_your_geofence_range">In Your Geofence Range</string>
+    <string name="total_offline_record">Total Offline Record</string>
+    <string name="upload_data">Upload Data</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="validate">Validate</string>
+
+    <string name="murraba_khsara_number">Murraba//Khsara Number</string>
+    <string name="verification_details">📄Verification Details</string>
+    <string name="view_on_map">View On Map 🗺️</string>
+    <string name="builtup_history">BuiltUp - History</string>
+    <string name="no_history_available">No History Available</string>
+    <string name="verification_date">Verification Date</string>
+    <string name="verified_by">Verified By</string>
+    <string name="status">Status</string>
+    <string name="additional_details">📄Additional Details</string>
+    <string name="select_district">Select District</string>
+    <string name="check_new_builtup_point_in_one_tap">Check New Builtup Points in One Tap</string>
+    <string name="all_points">All Points</string>
+    <string name="verified">Verified</string>
+    <string name="unverified">Unverified</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="total_new_built_up_area_points">Total New Built-Up Area Points</string>
+    <string name="tap_to_see_the_complete_record">Tap to view full record</string>
+    <string name="total_verified_records">Total verified Records</string>
+    <string name="total_unverified_records">Total Unverified Records</string>
+    <string name="particular_date_records">Particular Date Records</string>
+    <string name="total_users">Total Users</string>
+    <string name="new_builtup_point">New BuiltUp Point</string>
+    <string name="new_built_up_area_points">New Built-Up Area Points</string>
+    <string name="daily_weekly_monthly_report">Daily || Weekly || Monthly Report</string>
+    <string name="update_status_of_verified_points">Update Status of Verified Points</string>
+    <string name="logout">Logout</string>
+    <string name="logout_from_tcp_nba_verification_app">Logout From HARCDIS App</string>
+    <string name="name">Name :</string>
+    <string name="mobile_no">Mobile No :</string>
+    <string name="role">Designation :</string>
+    <string name="verification_record">📄Verification Record</string>
+    <string name="builtup_area_video">📄Builtup Area Video</string>
+    <string name="built_up_area_video">Built Up Area Video</string>
+    <string name="tap_to_see_the_builtup_area_video">Tap to watch builtup area video</string>
+    <string name="landmark">Landmark</string>
+    <string name="app_update_required">App Update Required!</string>
+    <string name="click_on_below_button_to_update_the_app">Click on the button below to update the app</string>
+    <string name="update">UPDATE</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="profile">Profile</string>
+    <string name="change_area">Change Area</string>
+    <string name="basemap">Basemap</string>
+    <string name="offline_records">Offline Records</string>
+    <string name="others">Others</string>
+    <string name="imagery">Imagery</string>
+    <string name="open_street_map">Open Street Map</string>
+    <string name="street">Street</string>
+    <string name="topographic">Topographic</string>
+    <string name="rating">Rating</string>
+    <string name="language">Change Language</string>
+    <string name="select_lang">Select Language</string>
+    <string name="dialog_title">Please choose from the list below:-</string>
+    <string name="otp_sent">OTP sent</string>
+    <string name="data_not_getting_for_that_point">Getting incomplete data for that point. try again later</string>
+    <string name="rectangle_selected">Quadrilateral is selected.</string>
+    <string name="rectangle_unselected">Quadrilateral is unselected.</string>
+    <string name="polygon_selected">The polygon is selected.</string>
+    <string name="polygon_unselected">The polygon is unselected.</string>
+
+    <string name="choose_any_shape">👈 Choose Any Shape</string>
+    <string name="select_boundary_tool">Select Boundary Tool</string>
+    <string name="click_on_map_to_change">Click on the map to change the boundary</string>
+    <string name="login_line">Welcome, Haryana Change Detection Information Systems(HARCDIS) Powered by TCP,Haryana || Contact the admin if you are not registered</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="no_image_selected">No image selected</string>
+    <string name="error_reading_image_file">Error reading image file</string>
+    <string name="mobile_number">Mobile Number*</string>
+    <string name="enterId">Enter ID</string>
+    <string name="enter_id_">Enter ID*</string>
+    <string name="wait_until_access_your_live_location">Wait until access your live location</string>
+    <string name="back_press_again">Press Back Again to Exit.</string>
+    <string name="user_registration_as_a_citizen">Citizen Registration </string>
+    <string name="full_name">Full Name*</string>
+    <string name="e_mail">E-mail*</string>
+    <string name="create_account">Create Account</string>
+    <string name="i_m_already_a_member">Already Register? Login</string>
+    <string name="username">Username*</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_user_full_name">Enter user full name</string>
+    <string name="enter_email">Enter email</string>
+    <string name="new_account_created">New user account has been created. To enter the app, login to the app.</string>
+    <string name="point_range">Point Range</string>
+    <string name="select_point_range">Select Point Range</string>
+    <string name="controlled_area">Controlled Area</string>
+    <string name="id">Id</string>
+    <string name="citizen">Continue As Citizen</string>
+    <string name="pin">Pin*</string>
+    <string name="selected_area_is" translatable="false" />
+    <string name="gps_status_">GPS Status Checking....</string>
+    <string name="connection_established">Connection Established…</string>
+    <string name="not_registered">Not Registered? SIGN UP</string>
+    <string name="continue_as_user">Continue As User</string>
+    <string name="confirm_pin">Confirm Pin*</string>
+    <string name="change">Change</string>
+    <string name="old_pin">Old Pin*</string>
+    <string name="new_pin">New Pin*</string>
+    <string name="send">Send</string>
+    <string name="set_pin">Set Pin</string>
+    <string name="change_pin">Change Pin</string>
+    <string name="select_security_question">   Select Security Question*</string>
+    <string name="your_district">   Your District*</string>
+    <string name="answer">Answer*</string>
+    <string name="enter_pin">Enter Pin</string>
+    <string name="enter_confirm_pin">Enter Confirm Pin</string>
+    <string name="enter_valid_pin">Enter Valid Pin</string>
+    <string name="pin_or_confirm_pin_not_matched">Both pin are different.</string>
+    <string name="username_">Username :</string>
+
+    <string name="pin_updated">Your pin is updated.</string>
+    <string name="pin_changed">Your pin is changed.</string>
+    <string name="back">BACK</string>
+    <string name="next">Next</string>
+    <string name="citizen_line">Citizens can inform the authority by marking illegal construction on the map.</string>
+    <string name="generate_pin">Generate Pin</string>
+    <string name="departmental_login">Departmental Login</string>
+    <string name="live">Live..........</string>
+    <string name="staging">Staging...........</string>
+    <string name="forgot_pin_">Forgot Pin?</string>
+    <string name="citizen_sign_on">Citizen Sign On</string>
+    <string name="department_of_town_amp_country_planning_haryana"><![CDATA[Department of Town & Country Planning, Haryana]]></string>
+    <string name="single_sign_on" translatable="false">Single Sign On</string>
+    <string name="user_name">Phone no</string>
+    <string name="enter_user_name">Enter Phone no</string>
+    <string name="developed_amp_maintained_by_it_cell_town_amp_planning_department_government_of_haryana"><![CDATA[Developed & Maintained By IT Cell, Town & Planning Department Government of Haryana]]></string>
+    <string name="sign_in">Sign in</string>
+    <string name="forgot_pin">Forgot Pin</string>
+    <string name="resendotp">Resend OTP</string>
+    <string name="development_plan_area_boundary">Development Plan Area Boundary</string>
+    <string name="urban_area_boundary">Urban Area Boundary</string>
+    <string name="licensed_colony_boundary">Licensed Colony Boundary</string>
+
+    <string name="cadastral_layer">Cadastral Layer</string>
+    <string name="tcp_nba_point">New Builtup Points</string>
+    <string name="tcp_nba_polygon">New Builtup Polygon</string>
+    <string name="layer_list">Layer List</string>
+    <string name="controlled_area_boundary">Controlled Area Boundary</string>
+    <string name="time_left">Time left in Seconds: </string>
+
+    <string name="undo" translatable="false">Undo</string>
+    <string name="redo" translatable="false">Redo</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="survey_report">Survey Report</string>
+    <string name="download">Download Report</string>
+    <string name="regularized_colony_boundary">Regularized Colony Boundary</string>
+    <string name="habitation">Habitation</string>
+    <string name="save_new_point_offline">Save New Point Offline</string>
+    <string name="you_can_not_save_boundary_details_offline">You Can Not Save Boundary Details Offline</string>
+    <string name="add_new_record_offline">Save In OutBox</string>
+    <string name="verified_point_records">Verified Point Records</string>
+    <string name="admin_dashboard_string">Admin Dashboard</string>
+    <string name="point_source">Point Source</string>
+    <string name="image_date_filter">Image Date Filter</string>
+    <string name="cycle_start_date">Cycle Start Date</string>
+    <string name="authorization">Authorization</string>
+    <string name="unauthorization">UnAuthorization</string>
+    <string name="reason">Reason</string>
+    <string name="select_reason">Select Reason</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="select_auth_unauth_type">Select Built Up Status</string>
+    <string name="only_district_admin_have_rights_to_forward_or_approved_the_new_built_up_points">Only District Admin have rights to forward or approved the new built-up points.</string>
+    <string name="approved">Approved</string>
+    <string name="forward_to_dtp">forward </string>
+
+</resources>

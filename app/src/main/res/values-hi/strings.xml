@@ -1,0 +1,396 @@
+<resources>
+    <string name="app_name">एचसीडीआईएस</string>
+
+    <string name="NotWorkingConnection">आपके पास काम करने वाला इंटरनेट कनेक्शन नहीं है।</string>
+    <string name="tcp_new_built_up_area_verification">हरियाणा परिवर्तन जांच सूचना प्रणाली</string>
+
+    <string name="action_settings">समायोजन</string>
+
+    <string name="menu_home">होम </string>
+    <string name="menu_gallery">गेलरी</string>
+    <string name="menu_slideshow">स्लाइड शो</string>
+    <string name="menu_tools">औजार</string>
+    <string name="menu_share">शेयर करना</string>
+    <string name="menu_send">भेजना</string>
+    <string name="powered_by_harsac">हरसैक द्वारा संचालित</string>
+
+
+    <string name="id_">"पहचान : "</string>
+
+
+    <string name="Start">शुरू</string>
+    <string name="chooseyourpreference">अपना स्थान चुनें</string>
+    <string name="selectYourDistrict">अपने जिले का चयन करें</string>
+    <string name="selectYourVillage">अपने गांव का चयन करें</string>
+    <string name="selectYourTehsil">अपनी तहसील का चयन करें</string>
+    <string name="dialog_distrcit">अपना जिला चुनें</string>
+    <string name="submit">जमा करना</string>
+
+
+
+
+    <string name="Open">खोलो</string>
+    <string name="Close">बंद करें </string>
+
+
+    <string name="EnterYourMobileNumber">मोबाइल नंबर *</string>
+    <string name="wewillsend">हम आपको पुष्टिकरण कोड भेजेंगे </string>
+    <string name="otpverfication">ओटीपी सत्यापन</string>
+    <string name="sendotp">OTP भेजें</string>
+    <string name="getOtp">ओटीपी प्राप्त करें</string>
+    <string name="didnotreciveanycode">क्या आपको कोई कोड नहीं मिला?</string>
+    <string name="resendnewcode">कोड पुनः भेजें</string>
+    <string name="please_enter_the_verification_code_sent_to_your_mobile_number">कृपया सत्यापन कोड दर्ज करें \n आपके मोबाइल नंबर पर भेजा गया</string>
+    <string name="update_available">उपलब्ध अद्यतन</string>
+    <string name="please_click_on_the_below_link_n_to_get_the_updated_application">अद्यतन आवेदन प्राप्त करने के लिए कृपया नीचे दी गई छवि पर क्लिक करें।</string>
+    <string name="close">बंद करें </string>
+    <string name="select_extra_crop_name">अतिरिक्त फसल का नाम चुनें</string>
+    <string name="tap_here_to_select_extra_crop_name">अतिरिक्त फसल का नाम चुनने के लिए यहां टैप करें</string>
+
+
+
+
+    <string name="ok">ठीक</string>
+    <string name="error">गलती</string>
+    <string name="permissionExplanation">देखिए, हमें वास्तव में आपके स्थान की आवश्यकता है&#8230;</string>
+    <string name="switchOnLocationShort">उफ़ - नकली GPS का उपयोग करके आप बहुत स्मार्ट हो रहे हैं, कृपया जारी रखने के लिए इसे रोकें और अपना स्थान ताज़ा करने के लिए अपने फ़ोन को पुनः प्रारंभ करें".</string>
+    <string name="switchOnLocationLong">उफ़ - ऐसा लगता है कि आपने इस समय स्थान सेवाओं को अक्षम कर दिया है।
+        जारी रखने के लिए, कृपया "ओके" पर क्लिक करें और सक्षम करें
+        जगह। यदि आप बैटरी उपयोग के बारे में चिंतित हैं, तो ऊर्जा बचत मोड पर स्विच करना सुनिश्चित करें। </string>
+    <string name="permissionPermanentlyDeclined">बकवास! आपने स्थान अनुमति को स्थायी रूप से अस्वीकार कर दिया है।
+        अनुमति बदलने के लिए "ओके" पर क्लिक करें
+        समायोजन।</string>
+    <string name="mockLocationMessage">मेरा उपहास करना\nबन्द करो</string>
+    <string name="empty">खाली</string>
+
+
+    <string name="enter_remarks_here">यहाँ टिप्पणियाँ दर्ज करें</string>
+    <string name="remarks">टिप्पणियां</string>
+
+    <string name="login">लॉग इन करें</string>
+    <string name="your_phone_no">फ़ोन नंबर</string>
+    <string name="otp">ओटीपी</string>
+    <string name="otp_verification">ओटीपी सत्यापन</string>
+    <string name="officer_name">Gurvinder  Singh / गुरविंदर सिंह</string>
+    <string name="officer_rank">पटवारी</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
+
+
+
+
+
+
+    <string name="Search_here">यहां तलाश करो</string>
+
+    <string name="tap_here_to_select_district_name">जिले का नाम चुनने के लिए यहां टैप करें</string>
+
+    <string name="village_name">ग्राम का नाम</string>
+    <string name="tap_here_to_select_village_name">गांव का नाम चुनने के लिए यहां टैप करें</string>
+    <string name="tap_here_to_select_muraba_number">मुरर्बा नंबर चुनने के लिए यहां टैप करें</string>
+    <string name="select_condition">शर्त का चयन करें</string>
+    <string name="select_encroachment_condition">अतिक्रमण की स्थिति का चयन करें</string>
+    <string name="capture_image">छवि कैप्चर करें</string>
+    <string name="save_offline">रिकॉर्ड ऑफ़लाइन सहेजें</string>
+    <string name="update_record">रिकॉर्ड अपडेट करें</string>
+    <string name="minimum_15_seconds_land_video">NBA का न्यूनतम 10 सेकंड का वीडियो*</string>
+    <string name="third_land_image">तीसरी NBA छवि *</string>
+    <string name="fourth_land_image">चौथी NBA छवि *</string>
+    <string name="land_image_form_10_15_meter_distance">10–15 मीटर की दूरी से NBA छवि *</string>
+    <string name="second_land_image">दूसरी NBA छवि *</string>
+    <string name="attach_land_images">एनबीए (नया निर्मित क्षेत्र) इमेज अटैच करें*</string>
+    <string name="name_">"नाम : "</string>
+    <string name="assigned_district_">"आवंटित जिला : "</string>
+    <string name="role_">"पद : "</string>
+    <string name="phone_no_">"फोन नंबर : "</string>
+    <string name="district_">"ज़िला : "</string>
+    <string name="verified_by_">"के द्वारा सत्यापित : "</string>
+    <string name="verified_">"सत्यापित : "</string>
+    <string name="murabba_khasra_">"मुरब्बा//खसरा नं : "</string>
+    <string name="village_">"गाँव : "</string>
+    <string name="tehsil_">"तहसील : "</string>
+    <string name="select_start_date">प्रारंभ तिथि का चयन करें</string>
+    <string name="select_end_date">समाप्ति तिथि का चयन करें</string>
+    <string name="loading">लोड हो रहा है</string>
+    <string name="please_wait">कृपया प्रतीक्षा करें......</string>
+    <string name="select_one">एक का चयन करें</string>
+    <string name="no_data_found">.....डाटा प्राप्त नहीं हुआ</string>
+    <string name="please_one_gps">GPS चालू करें </string>
+    <string name="your_live_location">आपका लाइव स्थान</string>
+    <string name="select_district_name">जिले का नाम चुनें</string>
+    <string name="select_tehsil_name">तहसील का नाम चुनें</string>
+    <string name="select_village_name">गांव का नाम चुनें</string>
+    <string name="no_number_found">कोई फ़ोन नंबर नहीं मिला</string>
+    <string name="no_registered_with_gfasal">आप GFASAL के साथ पंजीकृत नहीं हैं</string>
+    <string name="enter_mobile_no">मोबाइल नंबर दर्ज करें</string>
+    <string name="enter_valid_mobile_no">मान्य मोबाइल नंबर दर्ज करें</string>
+    <string name="current_district">वर्तमान जिला: </string>
+    <string name="try_again">पुनः प्रयास करें</string>
+    <string name="click_back_again">बाहर निकलने के लिए कृपया वापस क्लिक करें</string>
+    <string name="save_survey">सर्वेक्षण सहेजें</string>
+    <string name="submit_data_to_database">डेटाबेस में डेटा सबमिट करें</string>
+    <string name="add_new_point_in_buffer_range">बफर रेंज में नया बिंदु जोड़ें।</string>
+    <string name="error_in_finding_your_location">आपका स्थान ढूंढने में त्रुटि.</string>
+    <string name="offline_save_limit">ऑफ़लाइन संग्रहण सीमा अधिकतम तक पहुंच गई है</string>
+    <string name="are_you_want_to_submit_survey_data">क्या आप सर्वेक्षण डेटा सबमिट करना चाहते हैं?</string>
+    <string name="are_you_want_to_save_offline_survey_data">क्या आप सर्वेक्षण डेटा को ऑफ़लाइन सहेजना चाहते हैं?</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="floors_details">मंजिलों का विवरण *</string>
+    <string name="structure_type_kucha_pucca">संरचना का प्रकार (कच्चा/पक्का) *</string>
+    <string name="land_type">भूमि का प्रकार (सरकारी/निजी) *</string>
+    <string name="date">तारीख: </string>
+    <string name="searchQuery">यहां तलाश करो</string>
+    <string name="select_all">सबका चयन करें</string>
+    <string name="add_record">रिकॉर्ड जोड़ें</string>
+    <string name="enter_feedback">प्रतिक्रिया दर्ज करें</string>
+    <string name="select_feedback">फ़ीडबैक चुनें</string>
+    <string name="feedback">प्रतिक्रिया*</string>
+    <string name="enter_nearby_landmarks">आस-पास के स्थलचिह्न दर्ज करें</string>
+    <string name="nearby_landmarks">आस-पास के लैंडमार्क*</string>
+    <string name="minimum_15_seconds_video_is_required">न्यूनतम 15 सेकंड का वीडियो आवश्यक है*</string>
+    <string name="attach_nba_new_built_up_area_video">एनबीए (नया निर्मित क्षेत्र) वीडियो संलग्न करें*</string>
+    <string name="verified_area_sq_mtr">सत्यापित क्षेत्र (वर्ग मीटर)</string>
+    <string name="enter_area">क्षेत्र दर्ज करें</string>
+    <string name="survey_form">सर्वेक्षण प्रपत्र</string>
+    <string name="are_you_sure_to_update_status_of_all_selected_points">क्या आप निश्चित रूप से सभी चयनित बिंदुओं की स्थिति अपडेट करना चाहते हैं?</string>
+    <string name="point_status_is_updated">अंक की स्थिति अद्यतन हो गई है</string>
+    <string name="create_boundaries_around_point">बिंदु के चारों ओर सीमाएँ बनाएँ।</string>
+    <string name="do_you_want_draw_boundaries_around_this_point">क्या आप इस बिंदु के चारों ओर सीमा बनाना चाहते हैं?</string>
+    <string name="first_mark_location">पहले स्थान चिह्नित करें</string>
+    <string name="no_survice_currently_running">वर्तमान में कोई सेवा नहीं चल रही है</string>
+    <string name="point_is_already_selected">बिंदु पहले से ही चयनित है।</string>
+    <string name="server_connection_failed">सर्वर कनेक्शन विफल, बाद में पुन: प्रयास करें</string>
+    <string name="total_point">कुल बिंदु: </string>
+    <string name="unverified_point">असत्यापित बिंदु:: </string>
+    <string name="verified_point">सत्यापित बिंदु: </string>
+    <string name="no_offline_data_available">कोई ऑफ़लाइन डेटा उपलब्ध नहीं है</string>
+    <string name="velidate_and_loading_data"><![CDATA[डेटा को मान्य और लोड किया जा रहा है]]></string>
+    <string name="enter_otp">ओटीपी दर्ज करें</string>
+    <string name="enter_valid_otp">मान्य ओटीपी दर्ज करें</string>
+    <string name="otp_validate">ओटीपी मान्य करें</string>
+    <string name="check_internet_connection">अपना इंटरनेट संपर्क जांचे</string>
+    <string name="on_your_mobile_gps">अपना मोबाइल जीपीएस शुरू करें</string>
+    <string name="portal_login_failed">पोर्टल लॉगिन विफल कृपया अपना इंटरनेट कनेक्शन जांचें और पुनः प्रयास करें।</string>
+    <string name="capture_first_image">10–15 मीटर की दूरी से इमेज कैप्चर करें</string>
+    <string name="capture_second_image">दूसरी छवि कैप्चर करें</string>
+    <string name="capture_third_image">तीसरी छवि कैप्चर करें</string>
+    <string name="capture_fourth_image">चौथी छवि कैप्चर करें</string>
+    <string name="capture_video">न्यूनतम 15 सेकंड तक कैप्चर करें</string>
+    <string name="enter_structure_type">संरचना प्रकार दर्ज करें</string>
+    <string name="request_cancelled">अनुरोध रद्द किया गया</string>
+    <string name="point_updated">प्वाइंट अपडेट किया गया</string>
+    <string name="point_is_verified_successfully">बिंदु सफलतापूर्वक सत्यापित किया गया है</string>
+    <string name="boundaries_updated">सीमा अद्यतन</string>
+    <string name="point_added">बिंदु जोड़ा गया</string>
+    <string name="boundaries_added">सीमा जोड़ी गई</string>
+    <string name="point_and_boundary_added">नया बिंदु और क्षेत्र सफलतापूर्वक जोड़ा गया है</string>
+    <string name="point_and_boundary_verified">बिंदु और क्षेत्र का सफलतापूर्वक सत्यापन किया गया है </string>
+    <string name="error_while_uploading_data_to_server">सर्वर पर डेटा अपलोड करते समय त्रुटि…</string>
+    <string name="new_point_added">नया बिंदु सफलतापूर्वक जोड़ा गया है </string>
+    <string name="exit">बाहर निकलना?</string>
+    <string name="check_your_network_setting"><![CDATA[अपनी नेटवर्क सेटिंग्स जांचें और पुनः प्रयास करें।]]></string>
+    <string name="survey_record">सर्वेक्षण रिकॉर्ड :</string>
+    <string name="reset_date">रीसेट तिथि</string>
+    <string name="start_date">प्रारंभ तिथि</string>
+    <string name="end_date">अंतिम तिथि</string>
+    <string name="total_new_built_up_point">कुल नया निर्मित बिंदु</string>
+    <string name="filter_record_by_location">स्थान के अनुसार फ़िल्टर रिकॉर्ड करें</string>
+    <string name="built_up_point_location_wise">निर्मित बिंदु स्थान वार</string>
+    <string name="district_name">जिले का नाम</string>
+    <string name="tehsil_name">तहसील का नाम</string>
+    <string name="apply_filter">🔍 फिल्टर लागू करें</string>
+    <string name="total_user">कुल उपयोगकर्ता</string>
+    <string name="daily">कोई दिन</string>
+    <string name="weekly">इस सप्ताह</string>
+    <string name="this_month">इस महीने</string>
+    <string name="verified_point_">सत्यापित बिंदु</string>
+    <string name="ready_to_demolish">ध्वस्त करने के लिए तैयार</string>
+    <string name="total_unverified_record">कुल असत्यापित रिकॉर्ड</string>
+    <string name="total_history_record">कुल इतिहास रिकॉर्ड</string>
+    <string name="total_verified_record">कुल सत्यापित रिकॉर्ड</string>
+    <string name="select_area_for_encroachment">अतिक्रमण के लिए क्षेत्र का चयन करें</string>
+    <string name="district_name_">जिले का नाम *</string>
+    <string name="tap_here_to_select_tehsil_name">तहसील का नाम चुनने के लिए यहां टैप करें</string>
+    <string name="continue_">जारी रखना</string>
+    <string name="click_on_map">👆 मानचित्र पर क्लिक करें</string>
+    <string name="process_of_adding_new_point">नया बिंदु जोड़ने की प्रक्रिया</string>
+    <string name="_1_click_on_the_map_to_add_a_new_point_at_that_location_within_the_geofence_boundary_n">1. जियोफ़ेंस सीमा के भीतर उस स्थान पर एक नया बिंदु जोड़ने के लिए मानचित्र पर क्लिक करें।\n</string>
+    <string name="_2_user_can_also_create_borders_by_selecting_the_size_for_the_border">2. उपयोगकर्ता बॉर्डर के आकार का चयन करके भी बॉर्डर बना सकते हैं।</string>
+    <string name="there_are_two_types_of_shapes_available_for_creating_borders">बॉर्डर बनाने के लिए दो प्रकार की आकृतियाँ उपलब्ध हैं:-</string>
+    <string name="a_polygon">a) बहुभुज</string>
+    <string name="b_rectangle_n">b) आयत\n</string>
+    <string name="_3_click_on_next_button_to_fill_the_survey_form_to_add_a_new_point_n">3. नया बिंदु जोड़ने के लिए सर्वेक्षण फॉर्म भरने के लिए नेक्स्ट बटन पर क्लिक करें।\n</string>
+    <string name="in_case_of_correction_user_can_press_undo_or_redo_button">* सुधार के मामले में उपयोगकर्ता पूर्ववत या फिर से करें बटन दबा सकता है।</string>
+    <string name="add_new_point">नया बिंदु जोड़ें</string>
+    <string name="in_your_geofence_range">आपके जियोफेंस रेंज में</string>
+    <string name="total_offline_record">कुल ऑफ़लाइन रिकॉर्ड</string>
+    <string name="upload_data">डेटा अपलोड करें</string>
+    <string name="verification_code">सत्यापन कोड</string>
+    <string name="validate">मान्य</string>
+
+    <string name="murraba_khsara_number">मुर्राबा // ख्सरा नंबर</string>
+    <string name="verification_details">📄 सत्यापन विवरण</string>
+    <string name="view_on_map">मानचित्र पर देखें 🗺️</string>
+    <string name="builtup_history">बिल्टअप - इतिहास</string>
+    <string name="no_history_available">कोई इतिहास उपलब्ध नहीं है</string>
+    <string name="verification_date">सत्यापन तिथि</string>
+    <string name="verified_by">के द्वारा सत्यापित</string>
+    <string name="status">दर्जा</string>
+    <string name="additional_details">📄अतिरिक्त विवरण</string>
+    <string name="select_district">जिला चुनें</string>
+    <string name="check_new_builtup_point_in_one_tap">एक टैप में न्यू बिल्टअप पॉइंट चेक करें</string>
+    <string name="all_points">सभी अंक</string>
+    <string name="verified">सत्यापित</string>
+    <string name="unverified">असत्यापित</string>
+    <string name="admin_dashboard">व्यवस्थापक डैशबोर्ड</string>
+    <string name="total_new_built_up_area_points">कुल नए निर्मित क्षेत्र बिंदु</string>
+    <string name="tap_to_see_the_complete_record">पूरा रिकॉर्ड देखने के लिए टैप करें</string>
+    <string name="total_verified_records">कुल सत्यापित रिकॉर्ड</string>
+    <string name="total_unverified_records">कुल असत्यापित रिकॉर्ड</string>
+    <string name="particular_date_records">विशेष तिथि रिकॉर्ड</string>
+    <string name="total_users">कुल उपयोगकर्ता</string>
+    <string name="new_builtup_point">नया बिल्टअप प्वाइंट</string>
+    <string name="new_built_up_area_points">न्यू बिल्ट-अप एरिया पॉइंट्स</string>
+    <string name="daily_weekly_monthly_report">दैनिक || साप्ताहिक || मासिक रिपोर्ट</string>
+    <string name="update_status_of_verified_points">सत्यापित बिंदुओं की अद्यतन स्थिति</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="logout_from_tcp_nba_verification_app">HARCDIS ऐप से लॉगआउट करें।</string>
+    <string name="name">नाम :</string>
+    <string name="mobile_no">मोबाइल नंबर :</string>
+    <string name="role">पद :</string>
+    <string name="verification_record">📄 सत्यापन रिकॉर्ड</string>
+    <string name="builtup_area_video">📄 निर्मित क्षेत्र वीडियो</string>
+    <string name="built_up_area_video">निर्मित क्षेत्र वीडियो</string>
+    <string name="tap_to_see_the_builtup_area_video">निर्मित क्षेत्र वीडियो देखने के लिए टैप करें</string>
+    <string name="landmark">सीमाचिह्न</string>
+    <string name="app_update_required">ऐप अपडेट आवश्यक!</string>
+    <string name="click_on_below_button_to_update_the_app">ऐप को अपडेट करने के लिए नीचे दिए गए बटन पर क्लिक करें।</string>
+    <string name="update">अद्यतन</string>
+    <string name="dashboard">डैशबोर्ड</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="change_area">क्षेत्र बदलें</string>
+    <string name="basemap">आधार नक्शा</string>
+    <string name="offline_records"> ऑफलाइन रिकॉर्ड</string>
+    <string name="others">अन्य</string>
+    <string name="imagery">काल्पनिक नक्शा </string>
+    <string name="open_street_map">खुली गली नक्शा</string>
+    <string name="street">गली नक्शा</string>
+    <string name="topographic">स्थलाकृतिक</string>
+    <string name="rating">रेटिंग</string>
+    <string name="language">भाषा बदलें</string>
+    <string name="select_lang">भाषा चुने</string>
+    <string name="dialog_title">नीचे दी गई सूची में से चयन करें:-</string>
+    <string name="otp_sent">ओटीपी भेजा जाता है। </string>
+    <string name="data_not_getting_for_that_point">उस बिंदु के लिए अधूरा डेटा मिल रहा है। बाद में पुन: प्रयास करें। </string>
+    <string name="rectangle_selected">चतुर्भुज चुना गया है।</string>
+    <string name="polygon_selected">बहुभुज चुना गया है।</string>
+
+
+    <string name="rectangle_unselected">चतुर्भुज अचयनित है।</string>
+    <string name="polygon_unselected">बहुभुज अचयनित है।</string>
+
+    <string name="click_on_map_to_change">सीमा बदलने के लिए मानचित्र पर क्लिक करें।</string>
+    <string name="choose_any_shape">👈 कोई भी आकार चुनें</string>
+    <string name="select_boundary_tool">सीमा उपकरण का चयन करें</string>
+    <string name="login_line">स्वागत ! हरियाणा चेंज डिटेक्शन इंफॉर्मेशन सिस्टम्स (HARCDIS) टीसीपी, हरियाणा द्वारा संचालित || यदि आप पंजीकृत नहीं हैं तो व्यवस्थापक से संपर्क करें</string>
+    <string name="mobile_number">मोबाइल नंबर* </string>
+    <string name="something_went_wrong">कुछ गलत हो गया</string>
+    <string name="no_image_selected">कोई छवि चयनित नहीं है</string>
+    <string name="error_reading_image_file">चित्र फ़ाइल पढ़ने में त्रुटि</string>
+    <string name="enterId">आईडी दर्ज करें</string>
+    <string name="enter_id_">आईडी दर्ज करें*</string>
+    <string name="wait_until_access_your_live_location">अपने वर्तमान स्थान तक पहुँचने तक प्रतीक्षा करें</string>
+    <string name="back_press_again">बाहर निकलने के लिए फिर से वापस दबाएं।</string>
+
+    <string name="full_name">पूरा नाम*</string>
+    <string name="e_mail">ईमेल*</string>
+    <string name="create_account">खाता बनाएं</string>
+    <string name="username">उपयोगकर्ता नाम*</string>
+    <string name="registration_form">पंजीकरण फॉर्म</string>
+    <string name="enter_username">उपयोगकर्ता नाम दर्ज करें</string>
+    <string name="enter_user_full_name">उपयोगकर्ता का पूरा नाम दर्ज करें</string>
+    <string name="enter_email">ईमेल दर्ज करें</string>
+    <string name="new_account_created">नया उपयोगकर्ता खाता बनाया गया है। ऐप में प्रवेश करने के लिए ऐप में लॉग इन करें।</string>
+
+
+    <string name="point_range">प्वाइंट रेंज</string>
+    <string name="select_point_range">पॉइंट रेंज चुनें</string>
+    <string name="controlled_area">नियंत्रित क्षेत्र</string>
+    <string name="id">पहचान</string>
+    <string name="citizen">नागरिक के रूप में जारी रखें</string>
+    <string name="pin">पिन*</string>
+
+    <string name="gps_status_">जीपीएस स्थिति की जाँच....</string>
+    <string name="connection_established">कनेक्शन स्थापित…</string>
+    <string name="not_registered">पंजीकृत नहीं है? साइन अप करें</string>
+    <string name="continue_as_user">उपयोगकर्ता के रूप में जारी रखें</string>
+    <string name="confirm_pin">पिन की पुष्टि करें*</string>
+    <string name="change">बदलिए</string>
+    <string name="old_pin">पुराना पिन*</string>
+    <string name="new_pin">नया पिन*</string>
+    <string name="send">भेजें</string>
+    <string name="set_pin">पिन सेट करें</string>
+    <string name="change_pin">पिन बदलिए</string>
+    <string name="select_security_question">   सुरक्षा प्रश्न का चयन करें*</string>
+    <string name="your_district">   आपका जिला*</string>
+    <string name="answer">उत्तर*</string>
+    <string name="enter_pin">पिन दर्ज करें</string>
+    <string name="enter_confirm_pin">पिन फिर से दर्ज करेंं</string>
+    <string name="enter_valid_pin">मान्य पिन दर्ज करें</string>
+    <string name="pin_or_confirm_pin_not_matched">दोनों पिन अलग हैं।</string>
+
+    <string name="username_">उपयोगकर्ता नाम :</string>
+    <string name="i_m_already_a_member">पहले से ही पंजीकृत हैं? लॉग इन करें</string>
+    <string name="user_registration_as_a_citizen">नागरिक पंजीकरण </string>
+
+
+    <string name="pin_updated">आपका पिन अपडेट किया गया है।</string>
+    <string name="pin_changed">आपका पिन बदल दिया गया है।</string>
+    <string name="back">पीछे</string>
+    <string name="next">अगला</string>
+    <string name="citizen_line">नागरिक मानचित्र पर अवैध निर्माण चिन्हित कर प्राधिकरण को सूचित कर सकते हैं।</string>
+    <string name="generate_pin"> पिन उत्पन्न करें</string>
+    <string name="departmental_login">विभागीय लॉगिन</string>
+    <string name="live">लाइव..........</string>
+    <string name="staging">परिक्षण...........</string>
+    <string name="forgot_pin_">पिन भूल गए?</string>
+    <string name="citizen_sign_on">नागरिक साइन ऑन करें</string>
+    <string name="department_of_town_amp_country_planning_haryana"><![CDATA[टाउन एंड कंट्री प्लानिंग विभाग, हरियाणा]]></string>
+
+    <string name="user_name">उपयोगकर्ता नाम</string>
+    <string name="enter_user_name">उपयोगकर्ता नाम दर्ज करें</string>
+    <string name="developed_amp_maintained_by_it_cell_town_amp_planning_department_government_of_haryana"><![CDATA[आईटी सेल, टाउन एंड प्लानिंग डिपार्टमेंट, हरियाणा सरकार द्वारा विकसित और अनुरक्षित]]></string>
+    <string name="sign_in">दाखिल करना</string>
+    <string name="forgot_pin">पिन भूल गए</string>
+    <string name="resendotp">ओटीपी पुनः भेजें</string>
+    <string name="development_plan_area_boundary">विकास योजना क्षेत्र सीमा</string>
+    <string name="urban_area_boundary">शहरी क्षेत्र की सीमा</string>
+    <string name="licensed_colony_boundary">लाइसेंस प्राप्त कॉलोनी सीमा</string>
+
+    <string name="cadastral_layer">भूकर परत</string>
+    <string name="tcp_nba_point">TCP NBA (बिंदु)</string>
+    <string name="tcp_nba_polygon">TCP NBA (बहुभुज)</string>
+    <string name="layer_list">परत सूची</string>
+    <string name="controlled_area_boundary">नियंत्रित क्षेत्र सीमा</string>
+    <string name="time_left">सेकंड में समय बचा है: </string>
+    <string name="survey_report">Survey Report</string>
+    <string name="download">Download</string>
+    <string name="regularized_colony_boundary">Regularized Colony Boundary</string>
+    <string name="image_date_filter">Image Date Filter</string>
+    <string name="cycle_start_date">Cycle Start Date</string>
+    <string name="authorization">Authorization</string>
+    <string name="unauthorization">UnAuthorization</string>
+    <string name="reason">Reason</string>
+    <string name="select_reason">Select Reason</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="only_district_admin_have_rights_to_forward_or_approved_the_new_built_up_points">Only District Admin have rights to forward or approved the new built-up points.</string>
+    <string name="approved">Approved</string>
+    <string name="forward_to_dtp">forward to DTP</string>
+
+
+</resources>

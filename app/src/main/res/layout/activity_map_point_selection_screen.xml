@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.MapPointSelectionScreen">
+
+    <TextView
+        android:id="@+id/click_on_map_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@color/feeded"
+        android:elevation="@dimen/dp_5"
+        android:padding="@dimen/dp_5"
+        android:text="@string/click_on_map"
+        android:textColor="@color/red" />
+    <androidx.cardview.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/main_ll_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        app:cardUseCompatPadding="true">
+
+
+        <LinearLayout
+            android:layout_margin="@dimen/dp_3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="@dimen/dp_2"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:elevation="@dimen/dp_2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/polygonButton"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:elevation="2dp"
+                        android:src="@drawable/square" />
+
+                    <ImageButton
+                        android:id="@+id/rectangleButton"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/dp_5"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:elevation="2dp"
+
+                        android:src="@drawable/ic_baseline_rectangle_24" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/select_boundary_tool"
+                    android:textAlignment="center"
+                    android:textColor="@color/appColor"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+            <View
+                android:background="@color/appColor"
+                android:layout_width="2dp"
+                android:layout_height="70dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:elevation="@dimen/dp_2"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/undoButton"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/dp_2"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/white"
+                        android:elevation="@dimen/dp_2"
+                        android:padding="@dimen/dp_10"
+                        android:src="@drawable/ic_baseline_undo_24" />
+
+                    <ImageButton
+                        android:id="@+id/clearAllButton"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/dp_2"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/white"
+                        android:elevation="@dimen/dp_2"
+                        android:padding="@dimen/dp_10"
+                        android:src="@drawable/ic_baseline_clear_24" />
+
+                    <ImageButton
+                        android:id="@+id/redoButton"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/dp_2"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/white"
+                        android:elevation="@dimen/dp_2"
+                        android:padding="@dimen/dp_10"
+                        android:src="@drawable/ic_baseline_redo_24" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/undo"
+                        android:textAlignment="center"
+                        android:textColor="@color/appColor"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/cancel"
+                        android:textAlignment="center"
+                        android:textColor="@color/appColor"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/redo"
+                        android:textAlignment="center"
+                        android:textColor="@color/appColor"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/polygon_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_ll_layout"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/dp_5"
+        android:background="@drawable/storke_background"
+        android:backgroundTint="@color/white"
+        android:elevation="@dimen/dp_2"
+        android:padding="@dimen/dp_10"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
+
+    <com.esri.arcgisruntime.mapping.view.MapView
+        android:id="@+id/first_location_map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/confirmFloatingIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/appColor"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:visibility="gone" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/processFlowCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/dp_10"
+        android:padding="@dimen/dp_5"
+        android:visibility="visible"
+        app:cardCornerRadius="@dimen/dp_20"
+        app:cardElevation="@dimen/dp_20">
+
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:layout_margin="@dimen/dp_15"
+              android:gravity="center"
+              android:orientation="vertical">
+
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="@dimen/dp_100"
+                  android:src="@drawable/process_flow_new" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="@dimen/dp_10"
+                  android:gravity="center"
+                  android:text="@string/process_of_adding_new_point"
+                  android:textColor="@color/green"
+                  android:textSize="20sp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:text="@string/_1_click_on_the_map_to_add_a_new_point_at_that_location_within_the_geofence_boundary_n"
+                  android:textColor="@color/black"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:text="@string/_2_user_can_also_create_borders_by_selecting_the_size_for_the_border"
+                  android:textColor="@color/black"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:text="@string/there_are_two_types_of_shapes_available_for_creating_borders"
+                  android:textColor="@color/black" />
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/a_polygon"
+                  android:textColor="@color/black" />
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/b_rectangle_n"
+                  android:textColor="@color/black" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:text="@string/_3_click_on_next_button_to_fill_the_survey_form_to_add_a_new_point_n"
+                  android:textColor="@color/black"
+                  android:textStyle="bold" />
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+
+                  android:layout_height="wrap_content"
+                  android:layout_margin="@dimen/dp_5"
+                  android:gravity="center"
+                  android:text="@string/in_case_of_correction_user_can_press_undo_or_redo_button"
+                  android:textColor="@color/red" />
+
+
+              <Button
+                  android:id="@+id/okButton"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/ok" />
+          </LinearLayout>
+
+
+      </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

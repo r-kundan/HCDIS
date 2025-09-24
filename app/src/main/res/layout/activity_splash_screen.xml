@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".screens.SplashScreen">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:background="@color/appColor"
+        android:gravity="center"
+        android:padding="@dimen/dp_10"
+        android:text="@string/department_of_town_amp_country_planning_haryana"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/splash_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@id/app_name"
+        android:layout_centerInParent="true"
+        android:src="@drawable/app_logo_new"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/splash_image" />
+
+    <TextView
+        android:id="@+id/app_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_name"
+        android:text="@string/tcp_new_built_up_area_verification"
+        android:textAlignment="center"
+        android:textColor="@color/appColor"
+        android:textStyle="bold" />
+
+    <com.app.harcdis.utils.TypeWriter
+        android:id="@+id/app_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_full_name"
+        android:layout_margin="@dimen/dp_5"
+        android:textAlignment="center"
+        android:textColor="@color/appColor"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <ProgressBar
+        android:progressTint="@color/green"
+        android:id="@+id/splash_progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_30"
+        android:layout_above="@id/splash_text"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:max="100"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/splash_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tcp_id"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="Please Wait..."
+        android:textColor="@color/appcolor"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/tcp_id"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:src="@drawable/app_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/LogoutM"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="@string/logout" />
+        <item
+            android:id="@+id/changeLocation"
+            android:icon="@drawable/ic_baseline_location_on_24"
+            android:title="@string/change_area" />
+        <item
+            android:id="@+id/language"
+            android:icon="@drawable/ic_baseline_language_24"
+            android:title="@string/language" />
+        <item
+            android:id="@+id/pointRange"
+            android:icon="@drawable/ic_baseline_all_out_24"
+            android:title="@string/point_range" />
+
+        <item
+            android:id="@+id/survey_report"
+            android:icon="@drawable/survey"
+            android:title="@string/survey_report" />
+        <item
+            android:id="@+id/offline_new_record"
+            android:icon="@drawable/ic_baseline_outbox_24"
+            android:title="New Points OutBox" />
+
+        <item
+            android:id="@+id/offline_verified_record"
+            android:icon="@drawable/ic_baseline_outbox_24"
+            android:title="Verified Points OutBox" />
+
+
+        <item
+            android:id="@+id/controlledArea"
+            android:icon="@drawable/ic_baseline_area_chart_24"
+            android:title="@string/controlled_area"
+            android:visible="false" />
+        <item
+            android:id="@+id/changePin"
+            android:icon="@drawable/ic_baseline_password_24"
+            android:title="@string/change_pin"
+            android:visible="false" />
+    </group>
+
+
+    <item android:title="Enforcement">
+        <menu>
+            <item
+                android:id="@+id/forwarded_point"
+                android:icon="@drawable/arrow_up_white"
+                android:title="Forwarded Points" />
+
+        </menu>
+    </item>
+
+    <item android:title="@string/basemap">
+        <menu>
+            <item
+                android:id="@+id/nav_topo"
+                android:icon="@drawable/topographic"
+                android:title="@string/topographic" />
+            <item
+                android:id="@+id/street"
+                android:icon="@drawable/streets"
+                android:title="@string/street" />
+            <item
+                android:id="@+id/openstreetmap"
+                android:icon="@drawable/openstreetmap"
+                android:title="@string/open_street_map"
+                android:visible="false" />
+            <item
+                android:id="@+id/imagery"
+                android:icon="@drawable/imagary"
+                android:title="@string/imagery" />
+
+
+        </menu>
+    </item>
+
+    <item android:title="@string/offline_records">
+        <menu>
+            <!--            <item-->
+            <!--                android:id="@+id/outbox"-->
+            <!--                android:icon="@drawable/ic_baseline_upload_file_24"-->
+            <!--                android:title="OutBox" />-->
+        </menu>
+    </item>
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/ic_baseline_support_24"
+                android:title="@string/dashboard" />
+
+
+            <item
+                android:id="@+id/rate_us"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:title="@string/rating" />
+        </menu>
+    </item>
+
+</menu>
